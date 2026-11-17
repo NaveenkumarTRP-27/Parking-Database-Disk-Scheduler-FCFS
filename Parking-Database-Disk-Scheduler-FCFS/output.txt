@@ -1,0 +1,60 @@
+====================================================
+       PARKING DATABASE DISK SCHEDULER
+       FCFS (FIRST COME FIRST SERVE)
+====================================================
+
+Enter initial disk head position: 50
+Enter number of disk requests: 7
+
+Enter disk request positions:
+Request 1: 82
+Request 2: 170
+Request 3: 43
+Request 4: 140
+Request 5: 24
+Request 6: 16
+Request 7: 190
+
+====================================================
+             DISK SCHEDULING DETAILS
+====================================================
+
+Initial Disk Head Position : 50
+Total Number of Requests   : 7
+
+FCFS Request Arrival Order:
+82 -> 170 -> 43 -> 140 -> 24 -> 16 -> 190
+
+====================================================
+              HEAD MOVEMENT TABLE
+====================================================
+
+From         To              Movement
+----------------------------------------------------
+50           82              32
+82           170             88
+170          43              127
+43           140             97
+140          24              116
+24           16              8
+16           190             174
+----------------------------------------------------
+
+====================================================
+             DISK HEAD MOVEMENT SEQUENCE
+====================================================
+
+50 -> 82 -> 170 -> 43 -> 140 -> 24 -> 16 -> 190
+
+====================================================
+                FINAL RESULTS
+====================================================
+
+Total Head Movement : 642 cylinders
+Average Head Movement : 91.71 cylinders
+Scheduling Algorithm : FCFS
+Request Order : Arrival Order
+
+====================================================
+   FCFS DISK SCHEDULING COMPLETED SUCCESSFULLY
+====================================================
